@@ -37,12 +37,6 @@ Sou estudante e estou em constante desenvolvimento na área de tecnologia. Aprec
 
 ---
 
-## 📊 Estatísticas do GitHub
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=J4aoo&show_icons=true&theme=tokyonight)
-
----
-
 ## 🚀 Objetivos
 
 - Aprimorar minhas habilidades em programação  
@@ -64,4 +58,4 @@ Sou estudante e estou em constante desenvolvimento na área de tecnologia. Aprec
 ![JavaScript](https://img.shields.io/badge/JavaScript-60%25-yellow?style=for-the-badge&logo=javascript)
 ![HTML](https://img.shields.io/badge/HTML-75%25-red?style=for-the-badge&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-65%25-blue?style=for-the-badge&logo=css3)
-⭐ Perfil em constante evolução
+⭐ Perfil
