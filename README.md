@@ -1,23 +1,22 @@
 # 👋 Olá, eu sou o João
 
 🎓 Estudante  
-💻 Apaixonado por programação e tecnologia  
+💻 Odeio pessoas 
 📍 Brasil  
 
 ---
 
 ## 🧠 Sobre mim
 
-Sou estudante e estou em constante aprendizado na área de tecnologia. Tenho interesse em desenvolvimento de software, lógica de programação e criação de projetos práticos, sempre buscando evoluir minhas habilidades.
+Sou estudante e estou em constante desenvolvimento na área de tecnologia. Aprecio desenvolvimento de software, lógica de programação e criação de projetos práticos, sempre buscando a evolução.
 
 ---
 
 ## 🎓 Escolaridade
 
-- 📚 **[Nome da Escola / Instituto]**
-  - Curso: Ensino Médio / Técnico em Informática
-  - Período: 2023 – Atual
-
+- 📚 **[Unicesumar]**
+  - Curso: Analise e desenvolvimento de Sistemas
+  - Período: 2023 - 2027
 ---
 
 ## 💻 Linguagens e Tecnologias
@@ -34,7 +33,7 @@ Sou estudante e estou em constante aprendizado na área de tecnologia. Tenho int
 ### Ferramentas
 - Git & GitHub  
 - Visual Studio Code  
-- Windows / Linux  
+- Windows
 
 ---
 
@@ -47,17 +46,22 @@ Sou estudante e estou em constante aprendizado na área de tecnologia. Tenho int
 ## 🚀 Objetivos
 
 - Aprimorar minhas habilidades em programação  
-- Desenvolver projetos práticos  
+- Continuar desenvolvendo projetos práticos  
 - Aprender novas linguagens e tecnologias  
-- Ingressar profissionalmente na área de TI  
 
 ---
 
 ## 📫 Contato
 
-- 📧 Email: seuemail@email.com  
-- 💼 LinkedIn: seu-link-aqui  
+- 📧 Email: mr.45joao@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/jo%C3%A3o-pedro-ti/
 
 ---
+## 🧠 Tecnologias
 
+![Java](https://img.shields.io/badge/Java-80%25-orange?style=for-the-badge&logo=java)
+![Linux](https://img.shields.io/badge/Linux-70%25-yellow?style=for-the-badge&logo=linux)
+![JavaScript](https://img.shields.io/badge/JavaScript-60%25-yellow?style=for-the-badge&logo=javascript)
+![HTML](https://img.shields.io/badge/HTML-75%25-red?style=for-the-badge&logo=html5)
+![CSS](https://img.shields.io/badge/CSS-65%25-blue?style=for-the-badge&logo=css3)
 ⭐ Perfil em constante evolução
