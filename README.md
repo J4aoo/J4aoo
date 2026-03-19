@@ -1,127 +1,59 @@
-# 🏁 Opa prazer, João 
-
-> 💨 Todas as funcionalidades do projeto correndo em tempo real
-
----
-
-## 🏎️ Corrida de Funcionalidades
+# 🏁 AutoRace System
 
 <div align="center">
 
-<svg width="500" height="500" viewBox="0 0 500 500">
+## 🚗 Corrida em Tempo Real
 
-  <!-- Pista -->
+<img src="./race.svg" width="600"/>
 
-  <circle cx="250" cy="250" r="200" stroke="#333" stroke-width="2" fill="none"/>
-  <circle cx="250" cy="250" r="150" stroke="#222" stroke-width="2" fill="none"/>
-  <circle cx="250" cy="250" r="100" stroke="#111" stroke-width="2" fill="none"/>
-
-  <!-- Carro 1 -->
-
-  <circle cx="250" cy="50" r="8" fill="red">
-    <animateTransform 
-      attributeName="transform"
-      type="rotate"
-      from="0 250 250"
-      to="360 250 250"
-      dur="4s"
-      repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Carro 2 -->
-
-  <circle cx="250" cy="100" r="8" fill="blue">
-    <animateTransform 
-      attributeName="transform"
-      type="rotate"
-      from="360 250 250"
-      to="0 250 250"
-      dur="6s"
-      repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Carro 3 -->
-
-  <circle cx="250" cy="150" r="8" fill="yellow">
-    <animateTransform 
-      attributeName="transform"
-      type="rotate"
-      from="0 250 250"
-      to="360 250 250"
-      dur="8s"
-      repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Centro -->
-
-  <text x="250" y="255" text-anchor="middle" fill="white" font-size="14">
-    🏁 RACE
-  </text>
-
-</svg>
+💨 *Todas as funções do sistema rodando como uma corrida contínua*
 
 </div>
 
 ---
 
-## 🚗 O que cada carro representa
+## 🧠 Sobre o Projeto
 
-| Cor         | Função         |
-| ----------- | -------------- |
-| 🔴 Vermelho | API / Backend  |
-| 🔵 Azul     | Frontend       |
-| 🟡 Amarelo  | Banco de Dados |
+O **AutoRace System** transforma a execução do sistema em uma corrida visual:
 
----
+- Cada função = um carro 🏎️  
+- Cada processo = uma volta 🔄  
+- Cada performance = velocidade ⚡  
 
-## ⚙️ Funcionalidades
-
-* 🏎️ Sistema de corrida (simulação de processos)
-* ⚡ Execução paralela de funções
-* 📊 Monitoramento visual
-* 🔄 Loop contínuo de operações
+> 💬 "Aqui, seu código não executa… ele COMPETE."
 
 ---
 
-## 🧠 Como funciona
+## 🏎️ Mapeamento da Corrida
 
-Cada carro representa uma parte do sistema:
+| Carro | Função | Velocidade |
+|------|--------|-----------|
+| 🚗 | Backend | ⚡⚡⚡⚡ |
+| 🏎️ | Frontend | ⚡⚡⚡ |
+| 🚕 | Banco de Dados | ⚡⚡ |
+| 🚙 | API | ⚡⚡⚡ |
+
+---
+
+## 🎮 Como Visualizar
+
+1. Abra o README  
+2. Veja a corrida acontecendo acima 👆  
+3. Entenda o fluxo do sistema em tempo real  
+
+---
+
+## ⚙️ Como Rodar o Projeto
 
 ```bash
-🔴 Backend → Processa dados
-🔵 Frontend → Renderiza interface
-🟡 Database → Armazena informações
-```
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repo.git
 
-Todos “correm” ao mesmo tempo → simulando concorrência 🚀
+# Entre na pasta
+cd seu-repo
 
----
+# Instale dependências
+npm install
 
-## 🛠️ Tecnologias
-
-* SVG Animado 🎨
-* HTML Inline
-* GitHub README Hacks 😎
-
----
-
-## 🚀 Ideias futuras
-
-* [ ] Adicionar mais carros (features)
-* [ ] Velocidade baseada em performance real
-* [ ] Ranking de execução 🏆
-* [ ] Integração com API real
-
----
-
-## 🏁 Status
-
-🟢 Em corrida
-🏎️ Alta performance
-💨 Sempre acelerando
-
----
-
-> 💬 "Seu código não roda… ELE CORRE."
-
----
+# Execute
+npm run dev
