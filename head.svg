@@ -1,0 +1,68 @@
+<svg width="600" height="600" viewBox="0 0 600 600">
+
+  <!-- Fundo -->
+  <rect width="100%" height="100%" fill="#0d1117"/>
+
+  <!-- Pistas -->
+  <circle cx="300" cy="300" r="230" stroke="#2a2f3a" stroke-width="2" fill="none"/>
+  <circle cx="300" cy="300" r="180" stroke="#2a2f3a" stroke-width="2" fill="none"/>
+  <circle cx="300" cy="300" r="130" stroke="#2a2f3a" stroke-width="2" fill="none"/>
+  <circle cx="300" cy="300" r="80" stroke="#2a2f3a" stroke-width="2" fill="none"/>
+
+  <!-- Linha de chegada -->
+  <line x1="300" y1="70" x2="300" y2="530" stroke="white" stroke-dasharray="5,5"/>
+
+  <!-- CARRO 1 -->
+  <g>
+    <text x="300" y="70" text-anchor="middle">🚗</text>
+    <animateTransform 
+      attributeName="transform"
+      type="rotate"
+      from="0 300 300"
+      to="360 300 300"
+      dur="4s"
+      repeatCount="indefinite"/>
+  </g>
+
+  <!-- CARRO 2 -->
+  <g>
+    <text x="300" y="120" text-anchor="middle">🏎️</text>
+    <animateTransform 
+      attributeName="transform"
+      type="rotate"
+      from="360 300 300"
+      to="0 300 300"
+      dur="6s"
+      repeatCount="indefinite"/>
+  </g>
+
+  <!-- CARRO 3 -->
+  <g>
+    <text x="300" y="170" text-anchor="middle">🚕</text>
+    <animateTransform 
+      attributeName="transform"
+      type="rotate"
+      from="0 300 300"
+      to="360 300 300"
+      dur="8s"
+      repeatCount="indefinite"/>
+  </g>
+
+  <!-- CARRO 4 -->
+  <g>
+    <text x="300" y="220" text-anchor="middle">🚙</text>
+    <animateTransform 
+      attributeName="transform"
+      type="rotate"
+      from="360 300 300"
+      to="0 300 300"
+      dur="5s"
+      repeatCount="indefinite"/>
+  </g>
+
+  <!-- Centro -->
+  <text x="300" y="305" text-anchor="middle" fill="white" font-size="16">
+    🏁 RACE
+  </text>
+
+</svg>
