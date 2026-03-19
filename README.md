@@ -1,4 +1,4 @@
-# 🏁Opa prazer, João
+# 🏁 Opa prazer, João 
 
 > 💨 Todas as funcionalidades do projeto correndo em tempo real
 
@@ -52,4 +52,76 @@
       repeatCount="indefinite"/>
   </circle>
 
-  <!-- Centr
+  <!-- Centro -->
+
+  <text x="250" y="255" text-anchor="middle" fill="white" font-size="14">
+    🏁 RACE
+  </text>
+
+</svg>
+
+</div>
+
+---
+
+## 🚗 O que cada carro representa
+
+| Cor         | Função         |
+| ----------- | -------------- |
+| 🔴 Vermelho | API / Backend  |
+| 🔵 Azul     | Frontend       |
+| 🟡 Amarelo  | Banco de Dados |
+
+---
+
+## ⚙️ Funcionalidades
+
+* 🏎️ Sistema de corrida (simulação de processos)
+* ⚡ Execução paralela de funções
+* 📊 Monitoramento visual
+* 🔄 Loop contínuo de operações
+
+---
+
+## 🧠 Como funciona
+
+Cada carro representa uma parte do sistema:
+
+```bash
+🔴 Backend → Processa dados
+🔵 Frontend → Renderiza interface
+🟡 Database → Armazena informações
+```
+
+Todos “correm” ao mesmo tempo → simulando concorrência 🚀
+
+---
+
+## 🛠️ Tecnologias
+
+* SVG Animado 🎨
+* HTML Inline
+* GitHub README Hacks 😎
+
+---
+
+## 🚀 Ideias futuras
+
+* [ ] Adicionar mais carros (features)
+* [ ] Velocidade baseada em performance real
+* [ ] Ranking de execução 🏆
+* [ ] Integração com API real
+
+---
+
+## 🏁 Status
+
+🟢 Em corrida
+🏎️ Alta performance
+💨 Sempre acelerando
+
+---
+
+> 💬 "Seu código não roda… ELE CORRE."
+
+---
