@@ -1,0 +1,42 @@
+name: Atualizar perfil
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # todo dia às 06:00 (horário de Brasília)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar dependências
+        run: npm install --no-save --no-package-lock --prefix scripts jimp@0.22.12
+
+      - name: Buscar dados do GitHub
+        run: node scripts/fetch-data.js ${{ github.repository_owner }} "$RUNNER_TEMP/dados"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Gerar perfil.svg
+        run: node scripts/gen-skin.js "$RUNNER_TEMP/dados" perfil.svg
+
+      - name: Salvar se mudou
+        run: |
+          if git diff --quiet -- perfil.svg; then
+            echo "Nada mudou."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add perfil.svg
+          git commit -m "Atualiza dados do perfil"
+          git push
